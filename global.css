@@ -1,0 +1,147 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+:root { 
+    --background-primary: #F4F5FB;
+    --background-secondary: #FFFFFF;
+
+    --color-brand: #CA3884;
+    --color-brand-hover: #A52C6B;
+    --color-danger:##C93847;
+
+    --content-primary: #080B12;
+    --content-secondary: #374151;
+    --content-tertiary: #9CA3AF;
+    --always-white: #FFFFFF;
+
+    --border-primary: #D1D5DB;
+    --border-hover: #B9C2D0;
+}
+
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: var(--background-primary);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+:root {
+    --background-color: #f5f5fa;
+    --primary-color: #d63384;
+    --text-color: #333;
+    --input-bg: #fff;
+    --border-radius: 8px;
+    --alert-bg: #dc3545;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+header {
+    text-align: center;
+}
+
+.voltar {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+h1 {
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    background-color: var(--input-bg);
+}
+
+.input-area button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+#lista-compras {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-compras li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--input-bg);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: var(--border-radius);
+    border: 1px solid #ddd;
+}
+
+.remover {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #888;
+}
+
+.alerta-removido {
+    background: var(--alert-bg);
+    color: white;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.alerta-removido .fechar {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
